@@ -15,6 +15,7 @@ config.font = wezterm.font_with_fallback({
   "JetBrainsMono", -- fallback
 })
 config.font_size = 16
+config.harfbuzz_features = { "liga=0", "calt=0", "clig=0", "dlig=0" }
 
 -- Tabs
 config.use_fancy_tab_bar = false 
