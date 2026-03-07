@@ -18,7 +18,7 @@ config.font_size = 16
 config.harfbuzz_features = { "liga=0", "calt=0", "clig=0", "dlig=0" }
 
 -- Tabs
-config.use_fancy_tab_bar = false 
+config.use_fancy_tab_bar = false
 config.enable_tab_bar = true
 config.hide_tab_bar_if_only_one_tab = false
 config.tab_max_width = 50
