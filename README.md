@@ -17,9 +17,11 @@ WezTerm loads its configuration from:
 
 Clone this repository directly into that location:
 
+```bash
 mkdir -p ~/.config
 cd ~/.config
 git clone https://github.com/matthewstortini/wezterm-stortini.git wezterm
+```
 
 Restart WezTerm after cloning. The configuration will be automatically loaded from:
 
