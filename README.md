@@ -73,6 +73,55 @@ Ctrl-Shift-Tab  move to previous tab
 
 ---
 
+## Useful command-line editing shortcuts
+
+These shortcuts work in most shells, and are not unique to this package's WezTerm configuration. 
+
+### Cursor movement
+
+Ctrl-a  — move cursor to beginning of line  
+Ctrl-e  — move cursor to end of line  
+Ctrl-b  — move cursor back one character  
+Ctrl-f  — move cursor forward one character  
+Alt-b   — move cursor back one word  
+Alt-f   — move cursor forward one word  
+
+### Deleting text
+
+Alt-Backspace  — delete the word before the cursor  
+Alt-d          — delete the word after the cursor  
+Ctrl-u         — delete from cursor to start of line  
+Ctrl-k         — delete from cursor to end of line  
+
+### History
+
+Ctrl-r  — search command history (press repeatedly to cycle matches)  
+Alt-.   — insert the last argument from the previous command  
+
+### Cut / paste (kill ring)
+
+Ctrl-y  — paste previously deleted text  
+Alt-y   — cycle through previous deletions  
+
+### Transpose
+
+Ctrl-t  — swap the two characters before the cursor  
+Alt-t   — swap the word before the cursor with the word at the cursor  
+
+### Case change
+
+Alt-u  — uppercase the current word  
+Alt-l  — lowercase the current word  
+Alt-c  — capitalize the current word  
+
+### Other useful commands
+
+Ctrl-l  — clear the screen  
+Ctrl-c  — cancel the current command  
+Ctrl-d  — delete character under cursor (or exit shell if the line is empty)
+
+---
+
 ## Related repositories
 
 This configuration is intended to be used alongside:
