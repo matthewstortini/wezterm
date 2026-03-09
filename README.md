@@ -30,7 +30,6 @@ Clone the repository and run setup:
 ```bash
 git clone https://github.com/matthewstortini/wezterm-stortini.git
 cd wezterm-stortini
-chmod +x setup_wezterm_configuration.sh
 ./setup_wezterm_configuration.sh
 ```
 
