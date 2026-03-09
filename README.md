@@ -19,7 +19,6 @@ This repository contains a `wezterm.lua` configuration file, a rotating backgrou
 - Random terminal background selection
 - Background automatically changes every **five minutes**
 - Nerd Font support for icons in Neovim dashboards, file trees, and status lines
-- Simple tab management shortcuts
 - Configuration automatically reloads when `wezterm.lua` is saved
 
 ---
